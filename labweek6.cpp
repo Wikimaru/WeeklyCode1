@@ -46,7 +46,7 @@ int main()
 			{
 				moveDirect = 2;
 			}
-			if(ch=='w'&&bulletCooldown<=0&&Mag>0)
+			if(ch==' '&&bulletCooldown<=0&&Mag>0)
 			{
 				ShootBullet();
 			}
